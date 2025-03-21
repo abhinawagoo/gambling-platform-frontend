@@ -1,11 +1,15 @@
 // src/pages/_document.js
 import { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+        <Script
+          src="https://example.com/script.js"
+          strategy="beforeInteractive"
+        />
       </Head>
       <body>
         <Main />

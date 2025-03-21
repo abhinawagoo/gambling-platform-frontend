@@ -43,8 +43,8 @@ export default function GamePage() {
             {id && !gameComponent && (
               <>
                 <p className="text-muted-foreground mb-4">
-                  The game you're looking for doesn't exist or is currently
-                  unavailable.
+                  The game you&apos;re looking for doesn&apos;t exist or is
+                  currently unavailable.
                 </p>
                 <Link href="/games">
                   <Button>Browse Games</Button>
