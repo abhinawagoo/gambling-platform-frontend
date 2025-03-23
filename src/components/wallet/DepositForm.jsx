@@ -30,7 +30,7 @@ export function DepositForm() {
 
             // Initialize Razorpay
             const options = {
-                key: process.env.NEXT_PUBLIC_RAZORPAY_KEY, // Use environment variable
+                key: process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID, // Use environment variable
                 amount: order.order.amount * 100, // Razorpay amount in paisa
                 currency: order.order.currency,
                 name: "GamblePro",
