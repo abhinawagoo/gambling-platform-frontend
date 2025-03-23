@@ -7,7 +7,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <Script
-          src="https://example.com/script.js"
+          src="https://checkout.razorpay.com/v1/checkout.js"
           strategy="beforeInteractive"
         />
       </Head>
